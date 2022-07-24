@@ -1,0 +1,1249 @@
+_type: export
+__export_format: 4
+__export_date: 2022-07-24T22:15:24.273Z
+__export_source: insomnia.desktop.app:v2021.2.0
+resources:
+  - _id: req_bdf1bcd24091450394494391d36d0c32
+    parentId: fld_312623d7945a471184e041db32522b48
+    modified: 1613419890265
+    created: 1613419766431
+    url: localhost:8080/teste/cozinhas/findPrimeiraUsandoCustomJpaRepository
+    name: FindPrimeiraUsandoCustomJpaRepository
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1608132931668.481
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_312623d7945a471184e041db32522b48
+    parentId: fld_0c878196daea427abaed1e22d472f42e
+    modified: 1613419760385
+    created: 1613419760385
+    name: Cidade
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1613419760385
+    _type: request_group
+  - _id: fld_0c878196daea427abaed1e22d472f42e
+    parentId: fld_fc69e3c4216247259b0e45a06533de7c
+    modified: 1613400079981
+    created: 1608641609074
+    name: JPA_ConsultasVariadas
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1608641609074
+    _type: request_group
+  - _id: fld_fc69e3c4216247259b0e45a06533de7c
+    parentId: wrk_76d04fcf165e4d90abd77b6246d3004c
+    modified: 1605789483449
+    created: 1605789483449
+    name: Algaworks-AlgaFood
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1605789483449
+    _type: request_group
+  - _id: wrk_76d04fcf165e4d90abd77b6246d3004c
+    parentId: null
+    modified: 1586342537196
+    created: 1586342537196
+    name: BootCamp
+    description: ""
+    scope: collection
+    _type: workspace
+  - _id: req_68617a3e123b4dfe94266ad78bb43cd6
+    parentId: fld_fae373684d6e47ada98fd3b31c3d4bd2
+    modified: 1613400850623
+    created: 1608726184927
+    url: algafood.local:8080/teste/restaurantes/likeNome?nome=.
+    name: LikeNome
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1608570231488.75
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_fae373684d6e47ada98fd3b31c3d4bd2
+    parentId: fld_0c878196daea427abaed1e22d472f42e
+    modified: 1613399949886
+    created: 1613399935762
+    name: Restaurante
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1608641627339
+    _type: request_group
+  - _id: req_180f9d8b52794d1bac3e98c156dc3b84
+    parentId: fld_fae373684d6e47ada98fd3b31c3d4bd2
+    modified: 1613400845778
+    created: 1608641627230
+    url: algafood.local:8080/teste/restaurantes/taxaFreteBetween
+    name: TaxaFreteBetween
+    description: ""
+    method: GET
+    body: {}
+    parameters:
+      - name: taxaInicial
+        value: "1"
+        description: ""
+        id: pair_56e0b8848d6147709e0136448cfeca9f
+      - name: taxaFinal
+        value: "3.5"
+        description: ""
+        id: pair_0c75c7d94b974119b9a1a7026bd5087f
+    headers: []
+    authentication: {}
+    metaSortKey: -1608570231476.25
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_67c16bfa25744a09bd46d0db0d36b9db
+    parentId: fld_fae373684d6e47ada98fd3b31c3d4bd2
+    modified: 1613400839833
+    created: 1608726477801
+    url: algafood.local:8080/teste/restaurantes/likeNomeFirst?nome=aur
+    name: LikeNomeFirst
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1608570231432.5
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_1a2bf77738654262a4f65fd00d2d3b0a
+    parentId: fld_fae373684d6e47ada98fd3b31c3d4bd2
+    modified: 1613400834581
+    created: 1608726629575
+    url: algafood.local:8080/teste/restaurantes/likeNomeFirst3
+    name: LikeNomeFirst3
+    description: ""
+    method: GET
+    body: {}
+    parameters:
+      - name: nome
+        value: ran
+        description: ""
+        id: pair_cae354e124c940ecb80a17e2cbbfa5a7
+        disabled: false
+    headers: []
+    authentication: {}
+    metaSortKey: -1608570231410.625
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_dfd13bb316ce44888f5c25538df6807b
+    parentId: fld_fae373684d6e47ada98fd3b31c3d4bd2
+    modified: 1613400830942
+    created: 1608727468033
+    url: algafood.local:8080/teste/restaurantes/findAllOrderDescending
+    name: FindAllOrderDescending
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1608570231388.75
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_9fcfe64027024d31b6e8d73c07c1655c
+    parentId: fld_fae373684d6e47ada98fd3b31c3d4bd2
+    modified: 1613400854070
+    created: 1608725973968
+    url: algafood.local:8080/teste/restaurantes/likeNomeAndCozinhaId?nome=tau&cozinhaId=3
+    name: LikeNomeAndCozinhaId
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1608570231376.25
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_0af7471b76de40c39876ed7e761cae1d
+    parentId: fld_fae373684d6e47ada98fd3b31c3d4bd2
+    modified: 1613400857967
+    created: 1608727863210
+    url: algafood.local:8080/teste/restaurantes/countByCozinhaId?cozinhaId=2
+    name: CountByCozinhaId
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1608570231370
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_ce5813c4f9894808ac9401e6f67d421b
+    parentId: fld_fae373684d6e47ada98fd3b31c3d4bd2
+    modified: 1613400863236
+    created: 1608727981940
+    url: algafood.local:8080/teste/restaurantes/findByCozinhaId?cozinhaId=1
+    name: FindByCozinhaId
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1608570231363.75
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_f35b1d4a941944609f066b4399c3336d
+    parentId: fld_fae373684d6e47ada98fd3b31c3d4bd2
+    modified: 1613400866831
+    created: 1611143132868
+    url: localhost:8080/teste/restaurantes/findCustomByNomeTaxaFreteBetweenJPQLDinamico
+    name: FindCustomByNomeTaxaFreteBetweenJPQLDinamico
+    description: ""
+    method: GET
+    body: {}
+    parameters:
+      - name: nome
+        value: res
+        description: ""
+        id: pair_9589b49422794781aeac8762a7372db9
+      - name: taxaFreteInicial
+        value: "1"
+        description: ""
+        id: pair_3397f177ab22407e9bf102e0f13f5467
+        disabled: true
+      - name: taxaFreteFinal
+        value: "10"
+        description: ""
+        id: pair_fc90470ba075481d820af12fcbea9a07
+        disabled: true
+    headers: []
+    authentication: {}
+    metaSortKey: -1608570231340.3125
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_b8991acc89e541998ac91d7ba95673dc
+    parentId: fld_fae373684d6e47ada98fd3b31c3d4bd2
+    modified: 1613399981671
+    created: 1613042230626
+    url: localhost:8080/teste/restaurantes/findAllRestauranteSimpleCriteria
+    name: FindAllRestauranteSimpleCriteria
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1608570231339.5312
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_282f6cb7c4a44fffaf371c602f56f153
+    parentId: fld_fae373684d6e47ada98fd3b31c3d4bd2
+    modified: 1613416911180
+    created: 1613043898406
+    url: localhost:8080/teste/restaurantes/findByNomeTaxaFreteBetweenCriteria
+    name: FindByNomeTaxaFreteBetweenCriteria
+    description: ""
+    method: GET
+    body: {}
+    parameters:
+      - name: nome
+        value: res
+        description: ""
+        id: pair_9589b49422794781aeac8762a7372db9
+        disabled: true
+      - name: taxaFreteInicial
+        value: "3"
+        description: ""
+        id: pair_3397f177ab22407e9bf102e0f13f5467
+        disabled: false
+      - name: taxaFreteFinal
+        value: "10"
+        description: ""
+        id: pair_fc90470ba075481d820af12fcbea9a07
+        disabled: true
+    headers: []
+    authentication: {}
+    metaSortKey: -1608570231339.1406
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_38877026a9e44395be58b82de5cf3819
+    parentId: fld_fae373684d6e47ada98fd3b31c3d4bd2
+    modified: 1613416984923
+    created: 1613395569045
+    url: localhost:8080/teste/restaurantes/findByNomeComTaxaFreteGratisSpecificationPattern
+    name: FindByNomeComTaxaFreteGratisSpecificationPattern
+    description: ""
+    method: GET
+    body: {}
+    parameters:
+      - name: nome
+        value: au
+        description: ""
+        id: pair_9589b49422794781aeac8762a7372db9
+        disabled: false
+      - name: taxaFreteInicial
+        value: "3"
+        description: ""
+        id: pair_3397f177ab22407e9bf102e0f13f5467
+        disabled: true
+      - name: taxaFreteFinal
+        value: "10"
+        description: ""
+        id: pair_fc90470ba075481d820af12fcbea9a07
+        disabled: true
+    headers: []
+    authentication: {}
+    metaSortKey: -1608570231338.9453
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_371f4ea8ab734bd69d701f3ba1ec511a
+    parentId: fld_fae373684d6e47ada98fd3b31c3d4bd2
+    modified: 1613417026986
+    created: 1613398621533
+    url: localhost:8080/teste/restaurantes/findByNomeComTaxaFreteGratisLambdaExpressionSpecificationPattern
+    name: FindByNomeComTaxaFreteGratisLambdaExpressionSpecificationPattern
+    description: ""
+    method: GET
+    body: {}
+    parameters:
+      - name: nome
+        value: res
+        description: ""
+        id: pair_9589b49422794781aeac8762a7372db9
+        disabled: false
+      - name: taxaFreteInicial
+        value: "3"
+        description: ""
+        id: pair_3397f177ab22407e9bf102e0f13f5467
+        disabled: true
+      - name: taxaFreteFinal
+        value: "10"
+        description: ""
+        id: pair_fc90470ba075481d820af12fcbea9a07
+        disabled: true
+    headers: []
+    authentication: {}
+    metaSortKey: -1608570231338.8477
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_19ebfc43cadf4f80a8382d6840a06784
+    parentId: fld_fae373684d6e47ada98fd3b31c3d4bd2
+    modified: 1613417095957
+    created: 1613416854828
+    url: localhost:8080/teste/restaurantes/findByNomeComTaxaFreteGratisLambdaExpressionSpecificationPattern2
+    name: FindByNomeComTaxaFreteGratisLambdaExpressionSpecificationPattern2
+    description: ""
+    method: GET
+    body: {}
+    parameters:
+      - name: nome
+        value: a
+        description: ""
+        id: pair_9589b49422794781aeac8762a7372db9
+        disabled: false
+      - name: taxaFreteInicial
+        value: "3"
+        description: ""
+        id: pair_3397f177ab22407e9bf102e0f13f5467
+        disabled: true
+      - name: taxaFreteFinal
+        value: "10"
+        description: ""
+        id: pair_fc90470ba075481d820af12fcbea9a07
+        disabled: true
+    headers: []
+    authentication: {}
+    metaSortKey: -1608320345812.9238
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_189da334b31544bc857e9ce651f17b0c
+    parentId: fld_fae373684d6e47ada98fd3b31c3d4bd2
+    modified: 1613419720424
+    created: 1613419664816
+    url: localhost:8080/teste/restaurantes/findPrimeiroUsandoCustomJpaRepository
+    name: FindPrimeiroUsandoCustomJpaRepository
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1608195403049.962
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_2be6d031794049beb75960d8cb64edae
+    parentId: fld_19f09e8bd2ca431e9279a926bfe765bb
+    modified: 1609943787729
+    created: 1608068216989
+    url: localhost:8080/cidades
+    name: Listar
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1608070460287
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_19f09e8bd2ca431e9279a926bfe765bb
+    parentId: fld_fc69e3c4216247259b0e45a06533de7c
+    modified: 1608068208340
+    created: 1608068202571
+    name: Cidades
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1608068202571
+    _type: request_group
+  - _id: req_c39488e737b542a99b2f5f5854ad325b
+    parentId: fld_19f09e8bd2ca431e9279a926bfe765bb
+    modified: 1608551811494
+    created: 1608070460237
+    url: algafood.local:8080/cidades/10
+    name: Buscar
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1608070460237
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_79092367691047d4bf3f8390bc901d05
+    parentId: fld_19f09e8bd2ca431e9279a926bfe765bb
+    modified: 1608551836552
+    created: 1608069950365
+    url: algafood.local:8080/cidades
+    name: Inserir
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"nome": "Jaboatao",
+        	"estado":  {
+        		"id":1
+        	}
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_d97b0d99daca42baae5c05fa77c28edc
+    authentication: {}
+    metaSortKey: -1608069950365
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_d07d9b5d36734825b3ced983230465b0
+    parentId: fld_19f09e8bd2ca431e9279a926bfe765bb
+    modified: 1610023609864
+    created: 1608070186938
+    url: algafood.local:8080/cidades/1
+    name: Atualizar
+    description: ""
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"nome": "Recife antigo",
+        	"estado":  {
+        		"id":1
+        	}
+
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_d97b0d99daca42baae5c05fa77c28edc
+    authentication: {}
+    metaSortKey: -1608067889292
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_acffd4156ca7489088b09236dc9cc4b2
+    parentId: fld_19f09e8bd2ca431e9279a926bfe765bb
+    modified: 1608551961468
+    created: 1608070752276
+    url: algafood.local:8080/cidades/3
+    name: Remover
+    description: ""
+    method: DELETE
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1608067889242
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_08dc07d6605b45b9b65d653e2f8cfa48
+    parentId: fld_e36793a9b2c946ecac97321021f20b46
+    modified: 1608552793207
+    created: 1605789492167
+    url: algafood.local:8080/cozinhas
+    name: Listar
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - name: Accept
+        value: application/xml
+        description: ""
+        id: pair_841bbcf1556c498c8234e55bdb19f0d6
+        disabled: true
+    authentication: {}
+    metaSortKey: -1606220766388
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_e36793a9b2c946ecac97321021f20b46
+    parentId: fld_fc69e3c4216247259b0e45a06533de7c
+    modified: 1609937903386
+    created: 1605876658967
+    name: Cozinhas
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1607800204553.25
+    _type: request_group
+  - _id: req_17a69412619644a3bf2850cc527551a1
+    parentId: fld_e36793a9b2c946ecac97321021f20b46
+    modified: 1608552296128
+    created: 1606220766337
+    url: algafood.local:8080/cozinhas
+    name: Inserir
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"nome": ""
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_f164dca1fa8c4999905291eb3fb60464
+    authentication: {}
+    metaSortKey: -1606220766338
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_8dc0397705424080931f91ec3b4ddde8
+    parentId: fld_e36793a9b2c946ecac97321021f20b46
+    modified: 1608069896576
+    created: 1606222233407
+    url: algafood.local:8080/cozinhas/2
+    name: Atualizar
+    description: ""
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"id": 2,
+        	"nome": "Brasileira"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_37b6cc8e72d7469fad478cf56324ded7
+    authentication: {}
+    metaSortKey: -1606048706096.25
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_21d617b424a5479e8943fd5053c96570
+    parentId: fld_e36793a9b2c946ecac97321021f20b46
+    modified: 1608552802187
+    created: 1605876632742
+    url: algafood.local:8080/cozinhas/22
+    name: Buscar
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1605876645854.5
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_ed86b97f9f0d4df4a62d66b051034624
+    parentId: fld_e36793a9b2c946ecac97321021f20b46
+    modified: 1608552820140
+    created: 1606737848837
+    url: algafood.local:8080/cozinhas/2
+    name: Remover
+    description: ""
+    method: DELETE
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1605876610987.875
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_7c86ae4b739349eb90155f310fc3f184
+    parentId: fld_54eb677d05ed4d9391108afa3fa351ff
+    modified: 1608069864244
+    created: 1605870355100
+    url: algafood.local:8080/estados
+    name: Listar
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - name: Accept
+        value: application/xml
+        description: ""
+        id: pair_7b4c54c39b2946b2be51893ee7de710b
+        disabled: true
+    authentication: {}
+    metaSortKey: -1607947055572
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_54eb677d05ed4d9391108afa3fa351ff
+    parentId: fld_fc69e3c4216247259b0e45a06533de7c
+    modified: 1608070071618
+    created: 1605876682350
+    name: Estados
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1607532206535.5
+    _type: request_group
+  - _id: req_8cd6f2edd12c4acd968ffb73546ccc3c
+    parentId: fld_54eb677d05ed4d9391108afa3fa351ff
+    modified: 1608069867473
+    created: 1607945082481
+    url: algafood.local:8080/estados
+    name: Inserir
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"nome": "São Paulo"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_85bb9a1bee4d4ebcbbcbb6835064f16f
+    authentication: {}
+    metaSortKey: -1607947055547
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_bba29514e9e347168824f56f8beeba19
+    parentId: fld_54eb677d05ed4d9391108afa3fa351ff
+    modified: 1608551544388
+    created: 1607945562190
+    url: algafood.local:8080/estados/3
+    name: Atualizar
+    description: ""
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"nome": "São Paulo edit"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_85bb9a1bee4d4ebcbbcbb6835064f16f
+    authentication: {}
+    metaSortKey: -1607947055534.5
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_cf01b02195184ed2b27f165446f6f3b2
+    parentId: fld_54eb677d05ed4d9391108afa3fa351ff
+    modified: 1608551616499
+    created: 1605876506338
+    url: algafood.local:8080/estados/1
+    name: Buscar por id
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1607947055528.25
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_ac4decf58d6d4d58be469bf0f10cfe76
+    parentId: fld_54eb677d05ed4d9391108afa3fa351ff
+    modified: 1608551635475
+    created: 1607947055522
+    url: algafood.local:8080/estados/3
+    name: Remover
+    description: ""
+    method: DELETE
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1607947055522
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_5baa8c26649a463ba095ce46a80dc04c
+    parentId: fld_125d4ec97ca44ace84d349ef1967b7cb
+    modified: 1608069860960
+    created: 1606996238827
+    url: algafood.local:8080/restaurantes
+    name: Listar
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1608065828219
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_125d4ec97ca44ace84d349ef1967b7cb
+    parentId: fld_fc69e3c4216247259b0e45a06533de7c
+    modified: 1606996210500
+    created: 1606996210500
+    name: Resturantes
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1606996210500
+    _type: request_group
+  - _id: req_ccae2c726da94b2a9d6faac15061432e
+    parentId: fld_125d4ec97ca44ace84d349ef1967b7cb
+    modified: 1608069920916
+    created: 1607511719992
+    url: algafood.local:8080/restaurantes
+    name: Inserir
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+          "nome": "Restaurante 4",
+          "taxaFrete": 5.00,
+          "cozinha": {
+            "id": 1
+        	}
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_f164dca1fa8c4999905291eb3fb60464
+    authentication: {}
+    metaSortKey: -1608065828194
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_8b6ebd46ac9346f4a12c1d2d65e80133
+    parentId: fld_125d4ec97ca44ace84d349ef1967b7cb
+    modified: 1608552010625
+    created: 1608201395915
+    url: algafood.local:8080/restaurantes/1
+    name: AtualizarParcial
+    description: ""
+    method: PATCH
+    body:
+      mimeType: application/json
+      text: |-
+        {
+          "nome": "Restaurante 01 edit"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_f164dca1fa8c4999905291eb3fb60464
+    authentication: {}
+    metaSortKey: -1608065828187.75
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_e59897dcafef4f2999cf9cd3b7af4811
+    parentId: fld_125d4ec97ca44ace84d349ef1967b7cb
+    modified: 1608552031700
+    created: 1607600709513
+    url: algafood.local:8080/restaurantes/3
+    name: Atualizar
+    description: ""
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	
+          "nome": "Restaurante 3 editado",
+          "taxaFrete": 115.00,
+          "cozinha": {
+            "id": 1
+        	}
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_f164dca1fa8c4999905291eb3fb60464
+    authentication: {}
+    metaSortKey: -1608065828181.5
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_c87aa41141764ddea3973952b8d7b36a
+    parentId: fld_125d4ec97ca44ace84d349ef1967b7cb
+    modified: 1612527174400
+    created: 1606999437376
+    url: algafood.local:8080/restaurantes/5
+    name: Buscar por id
+    description: ""
+    method: GET
+    body: {}
+    parameters:
+      - name: id
+        value: "5"
+        description: ""
+        id: pair_fde6ccfdd68c4de08258ebfc5572be22
+    headers: []
+    authentication: {}
+    metaSortKey: -1608065828175.25
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_7fc04aa05e3e44558c97db596e8d1fb5
+    parentId: fld_125d4ec97ca44ace84d349ef1967b7cb
+    modified: 1608552275055
+    created: 1608065828169
+    url: algafood.local:8080/restaurantes/2
+    name: Remover
+    description: ""
+    method: DELETE
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1608065828169
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_7c82959797704cc598a133e2a169d559
+    parentId: fld_2ab3b2d17d5f4d41ae8b27ef509dc432
+    modified: 1610366050838
+    created: 1609943424126
+    url: localhost:8080/permissoes
+    name: Listar
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1609617974966.75
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_2ab3b2d17d5f4d41ae8b27ef509dc432
+    parentId: fld_fc69e3c4216247259b0e45a06533de7c
+    modified: 1609943411984
+    created: 1609943405283
+    name: Permissao
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1606996210450
+    _type: request_group
+  - _id: req_5e75354ed4344e6c84d8809f4825ec7b
+    parentId: fld_2ab3b2d17d5f4d41ae8b27ef509dc432
+    modified: 1610023061356
+    created: 1610022502943
+    url: localhost:8080/permissoes/
+    name: Inserir
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"nome": "permissao Test1",
+        	"descricao": "desc_test1"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_33496ec1c6234c149bd7f373359df5c0
+    authentication: {}
+    metaSortKey: -1609617974916.75
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_1208c815a4454b5d8baab9af59103171
+    parentId: fld_2ab3b2d17d5f4d41ae8b27ef509dc432
+    modified: 1610365789169
+    created: 1610020251145
+    url: localhost:8080/permissoes/3
+    name: Buscar por id
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1609495931463.2812
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_5b23d12f02cd41359d2119c34a8f9515
+    parentId: fld_2ab3b2d17d5f4d41ae8b27ef509dc432
+    modified: 1610366035865
+    created: 1610023082407
+    url: localhost:8080/permissoes/3
+    name: Atualizar
+    description: ""
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"nome": "permissao Test1 edit 2",
+        	"descricao": "desc_test1 edit 2"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_33496ec1c6234c149bd7f373359df5c0
+    authentication: {}
+    metaSortKey: -1609373888009.8125
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_97178f3250fd4e70ac2b5947a0787af5
+    parentId: fld_2ab3b2d17d5f4d41ae8b27ef509dc432
+    modified: 1610024519138
+    created: 1610024495823
+    url: localhost:8080/permissoes/1
+    name: Remover
+    description: ""
+    method: DELETE
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1609007757649.4062
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: env_faf2850e487a15001c4f730485f65a5688201d56
+    parentId: wrk_76d04fcf165e4d90abd77b6246d3004c
+    modified: 1586342537254
+    created: 1586342537254
+    name: Base Environment
+    data: {}
+    dataPropertyOrder: null
+    color: null
+    isPrivate: false
+    metaSortKey: 1586342537254
+    _type: environment
+  - _id: jar_faf2850e487a15001c4f730485f65a5688201d56
+    parentId: wrk_76d04fcf165e4d90abd77b6246d3004c
+    modified: 1586342537258
+    created: 1586342537258
+    name: Default Jar
+    cookies: []
+    _type: cookie_jar
+  - _id: spc_0e11210b2a304099bdbb130211ed1e93
+    parentId: wrk_76d04fcf165e4d90abd77b6246d3004c
+    modified: 1592304410299
+    created: 1592304410299
+    fileName: BootCamp
+    contents: ""
+    contentType: yaml
+    _type: api_spec
+  - _id: env_b6b7b19b3da648ada56f94a799ee2a5f
+    parentId: env_faf2850e487a15001c4f730485f65a5688201d56
+    modified: 1590578347588
+    created: 1586342943093
+    name: dev
+    data:
+      base_url: http://localhost:3333
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1OTA1NzgzMzIsImV4cCI6MTU5MDY2NDczMiwic3ViIjoiMGQwYjNmMDktNjdjMC00MjcxLThkMTQtYWJkZWI1Nzg3ZjI5In0.rQp8NmMvu3E7mfzFN5wP0ORPZ5CBqhO9jWLvglQmZkY
+    dataPropertyOrder:
+      "&":
+        - base_url
+        - token
+    color: "#735ec3"
+    isPrivate: false
+    metaSortKey: 1586342943093
+    _type: environment
+  - _id: env_597a9c5b5a314c50b31ecb7ac36efcc8
+    parentId: env_faf2850e487a15001c4f730485f65a5688201d56
+    modified: 1589547672596
+    created: 1586342986971
+    name: production
+    data:
+      base_url: ""
+    dataPropertyOrder:
+      "&":
+        - base_url
+    color: "#735ec3"
+    isPrivate: false
+    metaSortKey: 1586342943143
+    _type: environment
